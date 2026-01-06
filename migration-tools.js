@@ -68,7 +68,7 @@ function setupDashboard() {
     
   // Rule 1: Green for Match
   var ruleMatch = SpreadsheetApp.newConditionalFormatRule()
-    .whenTextContains("Match")
+    .whenTextContains("Ma")
     .setBackground("#b7e1cd") // Light Green
     .setFontColor("#0b5394")
     .setRanges([range])
