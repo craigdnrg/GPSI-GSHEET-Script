@@ -35,20 +35,20 @@ function setupDashboard() {
   configSheet.getRange("A8").setValue("3. Paste your OLD site URLs into Column A (starting at A2).");
   configSheet.getRange("A9").setValue("4. Columns B and C will calculate automatically.");
 
-configSheet.getRange("A10").setValue("Formula Instructions:").setFontWeight("bold");
+configSheet.getRange("A11").setValue("Formula Instructions:").setFontWeight("bold");
 
-configSheet.getRange("A11").setValue("Available custom functions (use in any cell):");
-configSheet.getRange("A12").setValue("• =getStatusCode(url)");
-configSheet.getRange("A13").setValue("• =getRobotsStatus(url)");
-configSheet.getRange("A14").setValue("• =getSitemapStatus(url)");
-configSheet.getRange("A15").setValue("• =getSitemapUrl(url)");
-configSheet.getRange("A16").setValue("• =getGTMStatus(url)");
-configSheet.getRange("A17").setValue("• =getMetaPixelStatus(url)");
-configSheet.getRange("A18").setValue("• =getBreadcrumbsStatus(url)");
+configSheet.getRange("A12").setValue("Available custom functions (use in any cell):");
+configSheet.getRange("A13").setValue("• =getStatusCode(url)");
+configSheet.getRange("A14").setValue("• =getRobotsStatus(url)");
+configSheet.getRange("A15").setValue("• =getSitemapStatus(url)");
+configSheet.getRange("A16").setValue("• =getSitemapUrl(url)");
+configSheet.getRange("A17").setValue("• =getGTMStatus(url)");
+configSheet.getRange("A18").setValue("• =getMetaPixelStatus(url)");
+configSheet.getRange("A19").setValue("• =getBreadcrumbsStatus(url)");
 
-configSheet.getRange("A20").setValue("URL Construction Logic:").setFontWeight("bold");
-configSheet.getRange("A21").setValue("Expected New URL = Base URL (B3) + '/' + Extracted Slug");
-configSheet.getRange("A22").setValue("Trailing slashes are automatically normalised.");
+configSheet.getRange("A21").setValue("URL Construction Logic:").setFontWeight("bold");
+configSheet.getRange("A22").setValue("Expected New URL = Base URL (B3) + '/' + Extracted Slug");
+configSheet.getRange("A23").setValue("Trailing slashes are automatically normalised.");
 
 configSheet.setColumnWidth(1, 420);
 configSheet.setColumnWidth(2, 320);
